@@ -13,6 +13,7 @@ public class Board {
             for col in 0..<grid[row].count {
                 if grid[row][col] == number {
                     grid[row][col] = -1
+                    break
                 }
             }
         }
