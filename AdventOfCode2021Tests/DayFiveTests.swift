@@ -27,16 +27,16 @@ class DayFiveTests: XCTestCase {
         let dayFive = DayFive(vents: vents)
         XCTAssertEqual(dayFive.partOne(), 6461)
     }
-//
-//    func testDayFive_2_sample() {
-//        _ = makeInput(sample: true)
-//        let dayFive = DayFive()
-//        XCTAssertEqual(dayFive.partTwo(), -1)
-//    }
-//
-//    func testDayFive_2() {
-//        _ = makeInput()
-//        let dayFive = DayFive()
-//        XCTAssertEqual(dayFive.partTwo(), -1)
-//    }
+    
+    func testDayFive_2_sample() {
+        let vents = makeInput(sample: true)
+        let dayFive = DayFive(vents: vents)
+        XCTAssertEqual(dayFive.partTwo(), 12)
+    }
+    
+    func testDayFive_2() {
+        let vents = makeInput()
+        let dayFive = DayFive(vents: vents)
+        XCTAssertEqual(dayFive.partTwo(), 18065)
+    }
 }

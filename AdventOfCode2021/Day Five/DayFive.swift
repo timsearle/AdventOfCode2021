@@ -37,25 +37,34 @@ public final class DayFive {
         return seabed.values.filter { $0 != 1 }.count
     }
     
-    private func markLocations(_ vent: Vent, on seabed: inout [Coordinate: Int]) {
-        // Only caring about horizontal or vertical lines
-        
+    private func markLocations(_ vent: Vent, on seabed: inout [Coordinate: Int], shouldIncludeDiagonal: Bool = false) {
         if vent.startPos.xPos == vent.endPos.xPos {
             // increment/decrement through y
-            let range = vent.startPos.yPos > vent.endPos.yPos ? vent.endPos.yPos...vent.startPos.yPos : vent.startPos.yPos...vent.endPos.yPos
-            for i in range {
+            for i in stride(from: vent.startPos.yPos, through: vent.endPos.yPos, by: vent.startPos.yPos > vent.endPos.yPos ? -1 : 1) {
                 seabed[Coordinate(xPos: vent.startPos.xPos, yPos: i), default: 0] += 1
             }
         } else if vent.startPos.yPos == vent.endPos.yPos {
             // increment/decrement through x
-            let range = vent.startPos.xPos > vent.endPos.xPos ? vent.endPos.xPos...vent.startPos.xPos : vent.startPos.xPos...vent.endPos.xPos
-            for i in range {
+            for i in stride(from: vent.startPos.xPos, through: vent.endPos.xPos, by: vent.startPos.xPos > vent.endPos.xPos ? -1 : 1) {
                 seabed[Coordinate(xPos: i, yPos: vent.startPos.yPos), default: 0] += 1
             }
-        }
+        } else if shouldIncludeDiagonal {
+            // Diagonal coordinates
+            for (x, y) in
+            zip(stride(from: vent.startPos.xPos, through: vent.endPos.xPos, by: vent.startPos.xPos > vent.endPos.xPos ? -1 : 1),
+                stride(from: vent.startPos.yPos, through: vent.endPos.yPos, by: vent.startPos.yPos > vent.endPos.yPos ? -1 : 1)) {
+                seabed[Coordinate(xPos: x, yPos: y), default: 0] += 1
+            }
+        }        
     }
     
     public func partTwo() -> Int {
-        0
+        var seabed = [Coordinate: Int]()
+        
+        vents.forEach {
+            markLocations($0, on: &seabed, shouldIncludeDiagonal: true)
+        }
+        
+        return seabed.values.filter { $0 != 1 }.count
     }
 }
