@@ -18,6 +18,8 @@
 		73B87ACA275B930000F0F07B /* DayFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B87AC7275B930000F0F07B /* DayFive.swift */; };
 		73B87ACC275B934C00F0F07B /* DayFiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B87ACB275B934C00F0F07B /* DayFiveTests.swift */; };
 		73B87ACE275B93D100F0F07B /* DayNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B87ACD275B93D100F0F07B /* DayNTests.swift */; };
+		73B87ACF275CBE1A00F0F07B /* DayFive-sample.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73B87AC5275B930000F0F07B /* DayFive-sample.txt */; };
+		73B87AD0275CBE1C00F0F07B /* DayFive.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73B87AC6275B930000F0F07B /* DayFive.txt */; };
 		DD467B8E25784C0F00DC9705 /* AdventOfCode2021.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD467B8425784C0E00DC9705 /* AdventOfCode2021.framework */; };
 		DD467B9325784C0F00DC9705 /* DayOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD467B9225784C0F00DC9705 /* DayOneTests.swift */; };
 		DD467B9525784C0F00DC9705 /* AdventOfCode2021.h in Headers */ = {isa = PBXBuildFile; fileRef = DD467B8725784C0F00DC9705 /* AdventOfCode2021.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -373,8 +375,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDFBAC7D2758C3C40057ED4A /* DayTwo.txt in Resources */,
+				73B87AD0275CBE1C00F0F07B /* DayFive.txt in Resources */,
 				73B87AC2275B7E9000F0F07B /* DayFour-sample.txt in Resources */,
 				DDFBAC73275789C20057ED4A /* DayOne-sample.txt in Resources */,
+				73B87ACF275CBE1A00F0F07B /* DayFive-sample.txt in Resources */,
 				73B87AC3275B869800F0F07B /* DayFour.txt in Resources */,
 				DDFBAC9D275A13180057ED4A /* DayThree.txt in Resources */,
 				DDFBAC7E2758C3C60057ED4A /* DayTwo-sample.txt in Resources */,
