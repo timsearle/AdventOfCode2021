@@ -42,6 +42,12 @@
 		DDFBAC9B275A0FDF0057ED4A /* DayThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFBAC9A275A0FDF0057ED4A /* DayThreeTests.swift */; };
 		DDFBAC9C275A13160057ED4A /* DayThree-sample.txt in Resources */ = {isa = PBXBuildFile; fileRef = DDFBAC94275A0FA70057ED4A /* DayThree-sample.txt */; };
 		DDFBAC9D275A13180057ED4A /* DayThree.txt in Resources */ = {isa = PBXBuildFile; fileRef = DDFBAC96275A0FA70057ED4A /* DayThree.txt */; };
+		DDFBACA2275E0A390057ED4A /* DaySix.txt in Resources */ = {isa = PBXBuildFile; fileRef = DDFBAC9F275E0A390057ED4A /* DaySix.txt */; };
+		DDFBACA3275E0A390057ED4A /* DaySix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFBACA0275E0A390057ED4A /* DaySix.swift */; };
+		DDFBACA4275E0A390057ED4A /* DaySix-sample.txt in Resources */ = {isa = PBXBuildFile; fileRef = DDFBACA1275E0A390057ED4A /* DaySix-sample.txt */; };
+		DDFBACA5275E0A480057ED4A /* DaySix.txt in Resources */ = {isa = PBXBuildFile; fileRef = DDFBAC9F275E0A390057ED4A /* DaySix.txt */; };
+		DDFBACA6275E0A480057ED4A /* DaySix-sample.txt in Resources */ = {isa = PBXBuildFile; fileRef = DDFBACA1275E0A390057ED4A /* DaySix-sample.txt */; };
+		DDFBACA8275E0A760057ED4A /* DaySixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFBACA7275E0A760057ED4A /* DaySixTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +108,10 @@
 		DDFBAC95275A0FA70057ED4A /* DayThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayThree.swift; sourceTree = "<group>"; };
 		DDFBAC96275A0FA70057ED4A /* DayThree.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DayThree.txt; sourceTree = "<group>"; };
 		DDFBAC9A275A0FDF0057ED4A /* DayThreeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayThreeTests.swift; sourceTree = "<group>"; };
+		DDFBAC9F275E0A390057ED4A /* DaySix.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DaySix.txt; sourceTree = "<group>"; };
+		DDFBACA0275E0A390057ED4A /* DaySix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaySix.swift; sourceTree = "<group>"; };
+		DDFBACA1275E0A390057ED4A /* DaySix-sample.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "DaySix-sample.txt"; sourceTree = "<group>"; };
+		DDFBACA7275E0A760057ED4A /* DaySixTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaySixTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +189,7 @@
 				DDFBAC93275A0FA70057ED4A /* Day Three */,
 				73B87ABB275B784C00F0F07B /* Day Four */,
 				73B87AC4275B930000F0F07B /* Day Five */,
+				DDFBAC9E275E0A390057ED4A /* Day Six */,
 				DD467B8825784C0F00DC9705 /* Info.plist */,
 				DD467BC42578524E00DC9705 /* Util */,
 			);
@@ -193,6 +204,7 @@
 				DDFBAC9A275A0FDF0057ED4A /* DayThreeTests.swift */,
 				73B87AB7275B783500F0F07B /* DayFourTests.swift */,
 				73B87ACB275B934C00F0F07B /* DayFiveTests.swift */,
+				DDFBACA7275E0A760057ED4A /* DaySixTests.swift */,
 				73B87ACD275B93D100F0F07B /* DayNTests.swift */,
 				DD467B9425784C0F00DC9705 /* Info.plist */,
 			);
@@ -235,6 +247,16 @@
 				DDFBAC96275A0FA70057ED4A /* DayThree.txt */,
 			);
 			path = "Day Three";
+			sourceTree = "<group>";
+		};
+		DDFBAC9E275E0A390057ED4A /* Day Six */ = {
+			isa = PBXGroup;
+			children = (
+				DDFBAC9F275E0A390057ED4A /* DaySix.txt */,
+				DDFBACA0275E0A390057ED4A /* DaySix.swift */,
+				DDFBACA1275E0A390057ED4A /* DaySix-sample.txt */,
+			);
+			path = "Day Six";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,10 +382,12 @@
 				DDFBAC99275A0FA70057ED4A /* DayThree.txt in Resources */,
 				73B87AC9275B930000F0F07B /* DayFive.txt in Resources */,
 				73B87ABF275B784C00F0F07B /* DayFour-sample.txt in Resources */,
+				DDFBACA4275E0A390057ED4A /* DaySix-sample.txt in Resources */,
 				DDFBAC97275A0FA70057ED4A /* DayThree-sample.txt in Resources */,
 				73B87AC0275B784C00F0F07B /* DayFour.txt in Resources */,
 				DDFBAC72275789400057ED4A /* DayOne-sample.txt in Resources */,
 				DDFBAC792758C2390057ED4A /* DayTwo.txt in Resources */,
+				DDFBACA2275E0A390057ED4A /* DaySix.txt in Resources */,
 				DDFBAC7A2758C2390057ED4A /* DayTwo-sample.txt in Resources */,
 				73B87AC8275B930000F0F07B /* DayFive-sample.txt in Resources */,
 				DD467BA825784CF500DC9705 /* DayOne.txt in Resources */,
@@ -374,6 +398,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDFBACA5275E0A480057ED4A /* DaySix.txt in Resources */,
 				DDFBAC7D2758C3C40057ED4A /* DayTwo.txt in Resources */,
 				73B87AD0275CBE1C00F0F07B /* DayFive.txt in Resources */,
 				73B87AC2275B7E9000F0F07B /* DayFour-sample.txt in Resources */,
@@ -381,6 +406,7 @@
 				73B87ACF275CBE1A00F0F07B /* DayFive-sample.txt in Resources */,
 				73B87AC3275B869800F0F07B /* DayFour.txt in Resources */,
 				DDFBAC9D275A13180057ED4A /* DayThree.txt in Resources */,
+				DDFBACA6275E0A480057ED4A /* DaySix-sample.txt in Resources */,
 				DDFBAC7E2758C3C60057ED4A /* DayTwo-sample.txt in Resources */,
 				DD467BB225784EDE00DC9705 /* DayOne.txt in Resources */,
 				DDFBAC9C275A13160057ED4A /* DayThree-sample.txt in Resources */,
@@ -396,6 +422,7 @@
 			files = (
 				73B87ACA275B930000F0F07B /* DayFive.swift in Sources */,
 				73B87AC1275B784C00F0F07B /* DayFour.swift in Sources */,
+				DDFBACA3275E0A390057ED4A /* DaySix.swift in Sources */,
 				DD467BA125784C2200DC9705 /* DayOne.swift in Sources */,
 				DD467BC62578525B00DC9705 /* Extensions.swift in Sources */,
 				DDFBAC782758C2390057ED4A /* DayTwo.swift in Sources */,
@@ -411,6 +438,7 @@
 				73B87ACC275B934C00F0F07B /* DayFiveTests.swift in Sources */,
 				DDFBAC9B275A0FDF0057ED4A /* DayThreeTests.swift in Sources */,
 				73B87AB8275B783500F0F07B /* DayFourTests.swift in Sources */,
+				DDFBACA8275E0A760057ED4A /* DaySixTests.swift in Sources */,
 				DDFBAC7C2758C2670057ED4A /* DayTwoTests.swift in Sources */,
 				73B87ACE275B93D100F0F07B /* DayNTests.swift in Sources */,
 			);
