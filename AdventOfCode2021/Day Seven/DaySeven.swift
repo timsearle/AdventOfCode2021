@@ -14,8 +14,8 @@ public final class DaySeven {
     private func minPositions(multiplier: Bool = false) -> Int {
         let (min, max) = crabPositions.minAndMax()!
 
-        var sums = [Int]()
         var sum = 0
+        var result = Int.max
 
         for i in min...max {
             for crab in crabPositions {
@@ -26,12 +26,11 @@ public final class DaySeven {
                     sum += n
                 }
             }
-
-            sums.append(sum)
+            result = Swift.min(result, sum)
             sum = 0
         }
 
-        return sums.min()!
+        return result
     }
     
     public func partTwo() -> Int {

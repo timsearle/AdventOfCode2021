@@ -33,6 +33,8 @@ class DaySevenTests: XCTestCase {
     func testDaySeven_2() {
         let crabs = makeInput()
         let daySeven = DaySeven(crabPositions: crabs)
-        XCTAssertEqual(daySeven.partTwo(), 101571302)
+        measure {
+            XCTAssertEqual(daySeven.partTwo(), 101571302)
+        }
     }
 }
