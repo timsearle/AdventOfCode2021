@@ -37,11 +37,7 @@ public final class DayNine {
             .map {
                 $0.count
             }
-            .enumerated()
-            .max(count: 3, sortedBy: { lhs, rhs in
-                lhs.element < rhs.element
-            })
-            .map { $0.element }
+            .max(count: 3)
             .reduce(1, *)
     }
 
