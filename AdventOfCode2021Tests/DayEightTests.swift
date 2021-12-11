@@ -22,7 +22,7 @@ class DayEightTests: XCTestCase {
     func testDayEight_1() {
         let input = makeInput()
         let dayEight = DayEight(values: input)
-        XCTAssertEqual(dayEight.partOne(), -1)
+        XCTAssertEqual(dayEight.partOne(), 488)
     }
 
     func testDayEight_2_sample() {
@@ -30,10 +30,10 @@ class DayEightTests: XCTestCase {
         let dayEight = DayEight(values: input)
         XCTAssertEqual(dayEight.partTwo(), 61229)
     }
-//
-//    func testDayEight_2() {
-//        _ = makeInput()
-//        let dayEight = DayEight()
-//        XCTAssertEqual(dayEight.partTwo(), -1)
-//    }
+
+    func testDayEight_2() {
+        let input = makeInput()
+        let dayEight = DayEight(values: input)
+        XCTAssertEqual(dayEight.partTwo(), 1040429)
+    }
 }

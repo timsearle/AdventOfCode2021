@@ -32,6 +32,8 @@ class DayElevenTests: XCTestCase {
     func testDayEleven_2() {
         let values = makeInput()
         let dayEleven = DayEleven(values: values)
+        measure {
         XCTAssertEqual(dayEleven.partTwo(), 273)
+        }
     }
 }
