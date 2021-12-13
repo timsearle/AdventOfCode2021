@@ -25,7 +25,7 @@ public final class DayNine {
 
         for row in 0..<values.count {
             for col in 0..<values[row].count {
-                if copy[row][col] != -1 && copy[row][col] != 9 {
+                if copy[row][col] != -1 && values[row][col] != 9 {
                     var basin = [Int]()
                     visitNeighbours(around: (row,col), copy: &copy, basin: &basin)
                     basins.append(basin)
