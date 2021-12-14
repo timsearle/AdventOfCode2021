@@ -57,6 +57,12 @@
 		DD8C3F60276208F200F80294 /* DayNineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8C3F5F276208F100F80294 /* DayNineTests.swift */; };
 		DD8C3F61276208F500F80294 /* DayNine.txt in Resources */ = {isa = PBXBuildFile; fileRef = DD8C3F59276208BB00F80294 /* DayNine.txt */; };
 		DD8C3F62276208F500F80294 /* DayNine-sample.txt in Resources */ = {isa = PBXBuildFile; fileRef = DD8C3F5A276208BB00F80294 /* DayNine-sample.txt */; };
+		DDC3AC622767950A00711BD4 /* DayThirteen.txt in Resources */ = {isa = PBXBuildFile; fileRef = DDC3AC5F2767950A00711BD4 /* DayThirteen.txt */; };
+		DDC3AC632767950A00711BD4 /* DayThirteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC3AC602767950A00711BD4 /* DayThirteen.swift */; };
+		DDC3AC642767950A00711BD4 /* DayThirteen-sample.txt in Resources */ = {isa = PBXBuildFile; fileRef = DDC3AC612767950A00711BD4 /* DayThirteen-sample.txt */; };
+		DDC3AC652767950F00711BD4 /* DayThirteen.txt in Resources */ = {isa = PBXBuildFile; fileRef = DDC3AC5F2767950A00711BD4 /* DayThirteen.txt */; };
+		DDC3AC662767951200711BD4 /* DayThirteen-sample.txt in Resources */ = {isa = PBXBuildFile; fileRef = DDC3AC612767950A00711BD4 /* DayThirteen-sample.txt */; };
+		DDC3AC682767953D00711BD4 /* DayThirteenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC3AC672767953D00711BD4 /* DayThirteenTests.swift */; };
 		DDFBAC6E275780060057ED4A /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = DDFBAC6D275780060057ED4A /* Algorithms */; };
 		DDFBAC72275789400057ED4A /* DayOne-sample.txt in Resources */ = {isa = PBXBuildFile; fileRef = DDFBAC71275789400057ED4A /* DayOne-sample.txt */; };
 		DDFBAC73275789C20057ED4A /* DayOne-sample.txt in Resources */ = {isa = PBXBuildFile; fileRef = DDFBAC71275789400057ED4A /* DayOne-sample.txt */; };
@@ -148,6 +154,10 @@
 		DD8C3F5A276208BB00F80294 /* DayNine-sample.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "DayNine-sample.txt"; sourceTree = "<group>"; };
 		DD8C3F5B276208BB00F80294 /* DayNine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayNine.swift; sourceTree = "<group>"; };
 		DD8C3F5F276208F100F80294 /* DayNineTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayNineTests.swift; sourceTree = "<group>"; };
+		DDC3AC5F2767950A00711BD4 /* DayThirteen.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DayThirteen.txt; sourceTree = "<group>"; };
+		DDC3AC602767950A00711BD4 /* DayThirteen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayThirteen.swift; sourceTree = "<group>"; };
+		DDC3AC612767950A00711BD4 /* DayThirteen-sample.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "DayThirteen-sample.txt"; sourceTree = "<group>"; };
+		DDC3AC672767953D00711BD4 /* DayThirteenTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayThirteenTests.swift; sourceTree = "<group>"; };
 		DDE71D3325863CC2008AE9BE /* TestHarness */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestHarness; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDFBAC71275789400057ED4A /* DayOne-sample.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "DayOne-sample.txt"; sourceTree = "<group>"; };
 		DDFBAC752758C2380057ED4A /* DayTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayTwo.swift; sourceTree = "<group>"; };
@@ -265,6 +275,7 @@
 				DD8C3F58276208BB00F80294 /* Day Nine */,
 				73DD6BC62764F9C0005E282D /* Day Ten */,
 				73DD6BBB2764BFFB005E282D /* Day Eleven */,
+				DDC3AC5E2767950A00711BD4 /* Day Thirteen */,
 				DD467B8825784C0F00DC9705 /* Info.plist */,
 				DD467BC42578524E00DC9705 /* Util */,
 			);
@@ -285,6 +296,7 @@
 				DD8C3F5F276208F100F80294 /* DayNineTests.swift */,
 				73DD6BCF2764FDA1005E282D /* DayTenTests.swift */,
 				73DD6BC42764C02B005E282D /* DayElevenTests.swift */,
+				DDC3AC672767953D00711BD4 /* DayThirteenTests.swift */,
 				73B87ACD275B93D100F0F07B /* DayNTests.swift */,
 				DD467B9425784C0F00DC9705 /* Info.plist */,
 			);
@@ -337,6 +349,16 @@
 				DD8C3F5B276208BB00F80294 /* DayNine.swift */,
 			);
 			path = "Day Nine";
+			sourceTree = "<group>";
+		};
+		DDC3AC5E2767950A00711BD4 /* Day Thirteen */ = {
+			isa = PBXGroup;
+			children = (
+				DDC3AC5F2767950A00711BD4 /* DayThirteen.txt */,
+				DDC3AC602767950A00711BD4 /* DayThirteen.swift */,
+				DDC3AC612767950A00711BD4 /* DayThirteen-sample.txt */,
+			);
+			path = "Day Thirteen";
 			sourceTree = "<group>";
 		};
 		DDFBAC742758C2380057ED4A /* Day Two */ = {
@@ -501,6 +523,7 @@
 				73DD6BC02764BFFB005E282D /* DayEleven.txt in Resources */,
 				DD8C3F172760AB6400F80294 /* DayEight-sample.txt in Resources */,
 				DDFBAC72275789400057ED4A /* DayOne-sample.txt in Resources */,
+				DDC3AC642767950A00711BD4 /* DayThirteen-sample.txt in Resources */,
 				DD8C3F192760AB6400F80294 /* DayEight.txt in Resources */,
 				DD8C3F0B275F84D400F80294 /* DaySeven.txt in Resources */,
 				DDFBAC792758C2390057ED4A /* DayTwo.txt in Resources */,
@@ -510,6 +533,7 @@
 				73B87AC8275B930000F0F07B /* DayFive-sample.txt in Resources */,
 				73DD6BBF2764BFFB005E282D /* DayEleven-sample.txt in Resources */,
 				DD467BA825784CF500DC9705 /* DayOne.txt in Resources */,
+				DDC3AC622767950A00711BD4 /* DayThirteen.txt in Resources */,
 				73DD6BCB2764F9C0005E282D /* DayTen.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,6 +554,7 @@
 				73DD6BC32764C003005E282D /* DayEleven.txt in Resources */,
 				DDFBAC9D275A13180057ED4A /* DayThree.txt in Resources */,
 				DD8C3F62276208F500F80294 /* DayNine-sample.txt in Resources */,
+				DDC3AC662767951200711BD4 /* DayThirteen-sample.txt in Resources */,
 				DDFBACA6275E0A480057ED4A /* DaySix-sample.txt in Resources */,
 				DDFBAC7E2758C3C60057ED4A /* DayTwo-sample.txt in Resources */,
 				DD8C3F1A2760AB9600F80294 /* DayEight.txt in Resources */,
@@ -539,6 +564,7 @@
 				DDFBAC9C275A13160057ED4A /* DayThree-sample.txt in Resources */,
 				73DD6BC22764C000005E282D /* DayEleven-sample.txt in Resources */,
 				DD8C3F1B2760AB9600F80294 /* DayEight-sample.txt in Resources */,
+				DDC3AC652767950F00711BD4 /* DayThirteen.txt in Resources */,
 				73DD6BCE2764F9C7005E282D /* DayTen.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -557,6 +583,7 @@
 				73DD6BC12764BFFB005E282D /* DayEleven.swift in Sources */,
 				DD8C3F5E276208BB00F80294 /* DayNine.swift in Sources */,
 				DDFBACA3275E0A390057ED4A /* DaySix.swift in Sources */,
+				DDC3AC632767950A00711BD4 /* DayThirteen.swift in Sources */,
 				DD467BA125784C2200DC9705 /* DayOne.swift in Sources */,
 				73DD6BCC2764F9C0005E282D /* DayTen.swift in Sources */,
 				DD467BC62578525B00DC9705 /* Extensions.swift in Sources */,
@@ -574,6 +601,7 @@
 				DD8C3F122760AB3300F80294 /* DayEightTests.swift in Sources */,
 				DDFBAC9B275A0FDF0057ED4A /* DayThreeTests.swift in Sources */,
 				73B87AB8275B783500F0F07B /* DayFourTests.swift in Sources */,
+				DDC3AC682767953D00711BD4 /* DayThirteenTests.swift in Sources */,
 				DD8C3F10275F850600F80294 /* DaySevenTest.swift in Sources */,
 				DDFBACA8275E0A760057ED4A /* DaySixTests.swift in Sources */,
 				DDFBAC7C2758C2670057ED4A /* DayTwoTests.swift in Sources */,
